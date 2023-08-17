@@ -1,0 +1,49 @@
+---
+title: "Variables cualitativas y cuantitativas"
+subtitle: "Seminario Análisis de tendencia para métodos cualitativos y cuantitativos"  
+author: "Pontificia Universidad Javeriana Cali" 
+date: "2023"
+output:
+  xaringan::moon_reader:
+    seal: false
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: false
+      ratio: 16:9
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+
+
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#0d3b66",
+  secondary_color = "#f4d35e",
+  inverse_header_color = "#FFFFFF"
+)
+```
+
+class: inverse, center, middle
+background-image: url(img/plantilla2.png)  /* Reemplaza "path_to_image.png" con la ruta de tu imagen de fondo */
+background-size: 100% 100%
+background-position: center
+
+
+# **Modelos multivariados**
+# **Unidad 1**
